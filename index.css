@@ -1,15 +1,36 @@
-img {border-radius:150px 100px 150px 100px;padding: 30px;} 
+html{display: flex;
+}
 
-h2 {font-size: 18px;}
+img {
+  border-radius:150px 100px 150px 100px;padding: 30px; align-self:auto;
+} 
 
-body {background-color:rgba(105, 108, 171, 0.836); font-family:trebuchet MS;
-color:rgba(112, 8, 182, 0.53); text-align: center;}
+h2 {
+  font-size: 18px;
+}
 
-.button{align-items: center; font-size: 30px;
- border-radius: 10px; padding: 30px; display: block;
+body {
+  background-color:rgb(187, 144, 255); 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  color: rgb(66, 2, 38); text-align: center;
+}
+
+button{
+  align-items: center; font-size: 20px; 
+ border-radius: 10px; padding: 5px; display: block;
   text-align: center; margin: 30px 10px 30px 10px;
-color: rgb(17, 10, 63);}
+color: rgb(17, 10, 63);
+}
 
-.Top_Bar { display: flex; align-items: center; padding: 10px 20px;
- color: lightblue; background-color: rgb(51, 24, 146); 
- box-shadow: 0 4px 6px rgba(0, 0, 0, 010.10);}
+ .instagram{ background-color:rgb(0, 161, 161) ;color: rgb(255, 255, 255); margin: 30px;
+ }
+
+ .about-nogi { background-color:rgb(0, 161, 161) ;color: rgb(255, 255, 255); margin: 30px;
+
+ }
+
+.Top_Bar {
+   display: flex; align-items: center; padding: 5px;
+   background-color: rgb(42, 74, 143); size: 10px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 010.10); border-radius: 100px 20px 50px 60px;
+}
